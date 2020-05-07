@@ -17,7 +17,7 @@ A primeira versão da aplicação podia apenas construir rotas sobre rodovias. A
 
 Contudo, isso foi apenas o começo. Mais tarde você planejou adicionar um construtor de rotas para ciclistas.
 
-## Solução
+### Solução
 
 O padrão Strategy sugere que você pegue uma classe que faz algo específico em diversas maneiras diferentes e extraia todos esses algoritmos para classes separadas chamadas estratégias.
 
