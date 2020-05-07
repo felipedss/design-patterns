@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>strategy</OriginalElement>
+  <nodes>
+    <node x="276.0" y="291.5">strategy.Bicycle</node>
+    <node x="521.5" y="79.0">strategy.Navigation</node>
+    <node x="276.0" y="91.5">strategy.RouteStrategy</node>
+    <node x="276.0" y="-28.5">strategy.Walk</node>
+    <node x="-4.0" y="91.5">strategy.PublicTransport</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategy.Navigation" target="strategy.RouteStrategy">
+      <point x="0.0" y="41.0" />
+      <point x="640.0" y="240.0" />
+      <point x="400.0" y="240.0" />
+      <point x="40.0" y="28.5" />
+    </edge>
+    <edge source="strategy.Bicycle" target="strategy.RouteStrategy">
+      <point x="0.0" y="-28.5" />
+      <point x="0.0" y="28.5" />
+    </edge>
+    <edge source="strategy.PublicTransport" target="strategy.RouteStrategy">
+      <point x="84.0" y="-0.0" />
+      <point x="-84.0" y="-0.0" />
+    </edge>
+    <edge source="strategy.Walk" target="strategy.RouteStrategy">
+      <point x="0.0" y="28.5" />
+      <point x="0.0" y="-28.5" />
+    </edge>
+  </edges>
+  <settings layout="Directed Orthogonal" zoom="1.0" x="377.5" y="160.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All Changed Files</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
